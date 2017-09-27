@@ -7,6 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!-- Diseño -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,7 +45,36 @@
     </ul>
   </div>
 </nav>
+<div class="container">
+<div class="col-sm-12">
+<div class="well">
+	<div class="row">
+        <div class="col-sm-8">
+          	<div class="panel panel-default text-left">
+	            <div class="panel-body">
+	              <p contenteditable="true">Producto: </p>
+	              <p contenteditable="true">Precio: </p>
+	              <p contenteditable="true">Vendedor: </p>
+	              <p contenteditable="true">Fecha de Venta: </p>
+	              <p contenteditable="true">Descripcion del Producto: </p>
+	            </div>
+      		</div>
 
+        </div>
+        <div class="col-sm-4">
+          	<div class="panel panel-default text-left">
+	            <div class="panel-body">
+	            <center>
+	              <img src="" width="250px" height="250px">
+	            </center>
+	            </div>
+      		</div>
+      		
+        </div>
+    </div>
+</div>
+</div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
